@@ -1,0 +1,70 @@
+.section-navigation-outer {
+    border-bottom: 2px solid $color-border;
+}
+.section-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+
+    &__logo-and-nav {
+        display: flex;
+        align-items: center;
+    }
+}
+.logo {
+    font-size: $fs-lg;
+    margin-right: 3rem;
+    font-weight: 800;
+    text-decoration: none;
+    display: block;
+    color: $color-text;
+}
+.color-span {
+    color: $color-hover;
+}
+.menu {
+    display: flex;
+
+    &__item {
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        display: block;
+        padding: 1.5rem 0;
+        color: $color-text;
+        font-weight: 600;
+        transition: $transition;
+        &:hover {
+            color: $color-hover;
+        }
+
+        &--active {
+            color: $color-hover;
+        }
+    }
+}
+.contacts {
+    display: flex;
+    &__item {
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        display: block;
+        padding: 1.5rem 0;
+        color: $color-text;
+        transition: $transition;
+
+        &:hover {
+            color: $color-hover;
+        }
+    }
+}
