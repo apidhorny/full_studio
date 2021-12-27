@@ -449,3 +449,48 @@ ul {
 .contacts__link:hover {
   color: #6246ea;
 }
+
+.section-hero {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 1rem;
+  background-color: #6246ea;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url("https://picsum.photos/id/143/1200");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("https://picsum.photos/id/143/1200");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-hero__title {
+  color: #fff;
+  font-size: 44px;
+}
+
+.section-hero__btn {
+  color: #fff;
+  padding: 1rem;
+  background-color: #6246ea;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.section-hero__btn:hover {
+  background-color: #755ded;
+}
