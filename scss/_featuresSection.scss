@@ -1,0 +1,28 @@
+.section-features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5rem 1rem;
+}
+
+.section-features-item {
+    width: 270px;
+    margin-bottom: 1rem;
+
+    &__img {
+        img {
+            border-radius: 5px;
+        }
+    }
+
+    &__title {
+        text-transform: uppercase;
+        margin: 0.5rem 0;
+        font-weight: 600;
+        color: $color-text;
+    }
+
+    &__text {
+        color: $color-text-tr;
+    }
+}

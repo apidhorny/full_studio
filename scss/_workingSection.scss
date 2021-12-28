@@ -1,0 +1,25 @@
+.section-working {
+    padding-bottom: 5rem;
+}
+.working-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &-item {
+        position: relative;
+
+        &__text {
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            padding: 2rem 0;
+            text-align: center;
+            color: $color-white;
+            background-color: $color-text-tr;
+            width: 100%;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+}

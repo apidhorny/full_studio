@@ -1,0 +1,75 @@
+.section-footer-outer {
+    background-color: $color-bg-footer;
+    padding: 3rem 0;
+}
+.section-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-bottom: 0.5rem;
+}
+.section-footer-contacts {
+    &__address {
+        font-weight: 600;
+        margin-bottom: 0.2rem;
+    }
+
+    &__email {
+        margin-bottom: 0.2rem;
+    }
+}
+
+.section-footer-socials {
+    &__title {
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+    }
+
+    &__list {
+        display: flex;
+    }
+}
+.icon-footer {
+    width: 3rem;
+    height: 3rem;
+    transition: $transition;
+    padding: 0.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        fill: $color-white;
+        background-color: $color-hover;
+    }
+}
+.section-footer-form {
+    &__title {
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+    }
+
+    &__input {
+        background-color: $color-bg-footer;
+        overflow: none;
+        border: 1px solid $color-text-tr;
+        padding: 1rem;
+        border-radius: 5px;
+        width: 400px;
+        margin-right: 0.5rem;
+    }
+
+    &__btn {
+        color: $color-white;
+        padding: 1rem;
+        background-color: $color-hover;
+        border: none;
+        border-radius: 5px;
+        font-size: $fs-lg;
+        cursor: pointer;
+        transition: $transition;
+
+        &:hover {
+            background-color: lighten($color-hover, 5);
+        }
+    }
+}
