@@ -52,9 +52,6 @@
             transition: $transition;
             margin-top: -2px;
         }
-        &:hover::after {
-            background-color: $color-hover;
-        }
     }
 
     &__link {

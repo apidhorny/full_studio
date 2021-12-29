@@ -9,12 +9,11 @@
         <link rel="stylesheet" href="/css/style.css" />
     </head>
     <body>
-        <!-- TODO: modal -->
         <!-- === NAVIGATION ===  -->
-        <section class="section-navigation-outer">
-            <header class="section-navigation inner-wrap">
+        <header class="section-navigation-outer">
+            <section class="section-navigation inner-wrap">
                 <div class="section-navigation__logo-and-nav">
-                    <a class="logo" href="#"><span class="color-span">ART</span>studio</a>
+                    <a class="logo" href="index.html"><span class="color-span">ART</span>studio</a>
                     <nav class="nav">
                         <ul class="menu">
                             <li class="menu__item menu__item--active">
@@ -47,222 +46,270 @@
                         </a>
                     </li>
                 </ul>
-            </header>
-        </section>
+            </section>
+        </header>
         <!-- === /NAVIGATION ===  -->
 
-        <!-- === SECTION-HERO ===  -->
-        <section class="section-hero-outer">
-            <div class="section-hero">
-                <h1 class="section-hero__title">Lorem ipsum dolor sit amet</h1>
-                <button class="section-hero__btn">Get Started</button>
+        <!-- === MODAL ===  -->
+        <div class="modal-bg is-hidden">
+            <div class="modal">
+                <button type="button" class="close-modal-btn">X</button>
+                <h3 class="modal-title">Lorem ipsum dolor sit amet</h3>
+                <form action="#" class="modal-form">
+                    <div class="modal-form__name">
+                        <label for="user-name" class="form-label">Name</label>
+                        <div class="user-name-wrap">
+                            <input type="text" name="user-name" class="form-input" />
+                            <svg class="icon-form">
+                                <use href="/img/svg-sp.svg#icon-ed"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="modal-form__phone">
+                        <label for="user-phone" class="form-label">Phone</label>
+                        <div class="user-phone-wrap">
+                            <input type="text" name="user-phone" class="form-input" />
+                            <svg class="icon-form">
+                                <use href="/img/svg-sp.svg#icon-ed"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="modal-form__email">
+                        <label for="user-email" class="form-label">Email</label>
+                        <div class="user-email-wrap">
+                            <input type="text" name="user-email" class="form-input" />
+                            <svg class="icon-form">
+                                <use href="/img/svg-sp.svg#icon-ed"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="modal-form__checkbox">
+                        <div class="user-checkbox-wrap">
+                            <input type="checkbox" name="user-comments" />
+                            <span>Lorem ipsum dolor sit amet</span>
+                        </div>
+                    </div>
+                    <button type="submit" class="form-btn">Send</button>
+                </form>
             </div>
-        </section>
-        <!-- === /SECTION-HERO ===  -->
+        </div>
+        <!-- === /MODAL ===  -->
 
-        <!-- === SECTION-FEATURES ===  -->
-        <section class="section-features-outer">
-            <ul class="section-features inner-wrap">
-                <li class="section-features-item">
-                    <div class="section-features-item__img">
-                        <img src="https://picsum.photos/id/128/270/120" alt="features one" />
-                    </div>
-                    <div class="section-features-item__title">Lorem, ipsum dolor</div>
-                    <div class="section-features-item__text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, eum. Minima saepe nobis atque fuga!
-                    </div>
-                </li>
-                <li class="section-features-item">
-                    <div class="section-features-item__img">
-                        <img src="https://picsum.photos/id/118/270/120" alt="features one" />
-                    </div>
-                    <div class="section-features-item__title">Lorem, ipsum dolor</div>
-                    <div class="section-features-item__text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, eum. Minima saepe nobis atque fuga!
-                    </div>
-                </li>
-                <li class="section-features-item">
-                    <div class="section-features-item__img">
-                        <img src="https://picsum.photos/id/168/270/120" alt="features one" />
-                    </div>
-                    <div class="section-features-item__title">Lorem, ipsum dolor</div>
-                    <div class="section-features-item__text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, eum. Minima saepe nobis atque fuga!
-                    </div>
-                </li>
-                <li class="section-features-item">
-                    <div class="section-features-item__img">
-                        <img src="https://picsum.photos/id/188/270/120" alt="features one" />
-                    </div>
-                    <div class="section-features-item__title">Lorem, ipsum dolor</div>
-                    <div class="section-features-item__text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, eum. Minima saepe nobis atque fuga!
-                    </div>
-                </li>
-            </ul>
-        </section>
-        <!-- === /SECTION-FEATURES ===  -->
+        <main>
+            <!-- === SECTION-HERO ===  -->
+            <section class="section-hero-outer">
+                <div class="section-hero">
+                    <h1 class="section-hero__title">Lorem ipsum dolor sit amet</h1>
+                    <button class="section-hero__btn">Get Started</button>
+                </div>
+            </section>
+            <!-- === /SECTION-HERO ===  -->
 
-        <!-- === SECTION-WORKING ===  -->
-        <section class="section-working-outer">
-            <div class="section-working inner-wrap">
-                <h2 class="section-title">Lorem ipsum dolor</h2>
-                <ul class="working-list">
-                    <li class="working-list-item">
-                        <div class="working-list-item__img">
-                            <img src="https://picsum.photos/id/230/370" alt="work" />
+            <!-- === SECTION-FEATURES ===  -->
+            <section class="section-features-outer">
+                <ul class="section-features inner-wrap">
+                    <li class="section-features-item">
+                        <div class="section-features-item__img">
+                            <img src="https://picsum.photos/id/128/270/120" alt="features one" />
                         </div>
-                        <p class="working-list-item__text">Lorem ipsum</p>
-                    </li>
-                    <li class="working-list-item">
-                        <div class="working-list-item__img">
-                            <img src="https://picsum.photos/id/222/370" alt="work" />
-                        </div>
-                        <p class="working-list-item__text">Lorem ipsum</p>
-                    </li>
-                    <li class="working-list-item">
-                        <div class="working-list-item__img">
-                            <img src="https://picsum.photos/id/235/370" alt="work" />
-                        </div>
-                        <p class="working-list-item__text">Lorem ipsum</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- === /SECTION-WORKING ===  -->
-
-        <!-- === SECTION-TEAMS ===  -->
-        <section class="section-team-outer">
-            <div class="section-team inner-wrap">
-                <h2 class="section-title">Lorem ipsum dolor</h2>
-                <ul class="team-list">
-                    <li class="team-list-item">
-                        <img src="https://picsum.photos/id/289/270" alt="photo" class="team-list-item__img" />
-                        <div class="team-list-item__body">
-                            <p class="team-list-item__name">Lorem ipsum</p>
-                            <p class="team-list-item__position">Lorem ipsum</p>
-                            <div class="team-list-item__socials">
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-fb"></use>
-                                </svg>
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-wa"></use>
-                                </svg>
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-yt"></use>
-                                </svg>
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-ms"></use>
-                                </svg>
-                            </div>
+                        <div class="section-features-item__title">Lorem, ipsum dolor</div>
+                        <div class="section-features-item__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, eum. Minima saepe nobis atque fuga!
                         </div>
                     </li>
-                    <li class="team-list-item">
-                        <img src="https://picsum.photos/id/889/270" alt="photo" class="team-list-item__img" />
-                        <div class="team-list-item__body">
-                            <p class="team-list-item__name">Lorem ipsum</p>
-                            <p class="team-list-item__position">Lorem ipsum</p>
-                            <div class="team-list-item__socials">
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-fb"></use>
-                                </svg>
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-wa"></use>
-                                </svg>
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-yt"></use>
-                                </svg>
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-ms"></use>
-                                </svg>
-                            </div>
+                    <li class="section-features-item">
+                        <div class="section-features-item__img">
+                            <img src="https://picsum.photos/id/118/270/120" alt="features one" />
+                        </div>
+                        <div class="section-features-item__title">Lorem, ipsum dolor</div>
+                        <div class="section-features-item__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, eum. Minima saepe nobis atque fuga!
                         </div>
                     </li>
-                    <li class="team-list-item">
-                        <img src="https://picsum.photos/id/221/270" alt="photo" class="team-list-item__img" />
-                        <div class="team-list-item__body">
-                            <p class="team-list-item__name">Lorem ipsum</p>
-                            <p class="team-list-item__position">Lorem ipsum</p>
-                            <div class="team-list-item__socials">
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-fb"></use>
-                                </svg>
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-wa"></use>
-                                </svg>
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-yt"></use>
-                                </svg>
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-ms"></use>
-                                </svg>
-                            </div>
+                    <li class="section-features-item">
+                        <div class="section-features-item__img">
+                            <img src="https://picsum.photos/id/168/270/120" alt="features one" />
+                        </div>
+                        <div class="section-features-item__title">Lorem, ipsum dolor</div>
+                        <div class="section-features-item__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, eum. Minima saepe nobis atque fuga!
                         </div>
                     </li>
-                    <li class="team-list-item">
-                        <img src="https://picsum.photos/id/389/270" alt="photo" class="team-list-item__img" />
-                        <div class="team-list-item__body">
-                            <p class="team-list-item__name">Lorem ipsum</p>
-                            <p class="team-list-item__position">Lorem ipsum</p>
-                            <div class="team-list-item__socials">
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-fb"></use>
-                                </svg>
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-wa"></use>
-                                </svg>
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-yt"></use>
-                                </svg>
-                                <svg class="icon">
-                                    <use href="/img/svg-sp.svg#icon-ms"></use>
-                                </svg>
-                            </div>
+                    <li class="section-features-item">
+                        <div class="section-features-item__img">
+                            <img src="https://picsum.photos/id/188/270/120" alt="features one" />
+                        </div>
+                        <div class="section-features-item__title">Lorem, ipsum dolor</div>
+                        <div class="section-features-item__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, eum. Minima saepe nobis atque fuga!
                         </div>
                     </li>
                 </ul>
-            </div>
-        </section>
-        <!-- === /SECTION-TEAMS ===  -->
-        <!-- === SECTION-CLIENTS ===  -->
-        <section class="section-clients-outer">
-            <div class="section-clients inner-wrap">
-                <h2 class="section-title">Lorem ipsum dolor</h2>
-                <ul class="section-clients-list">
-                    <li class="section-clients-list__item">
-                        <svg class="icon-clients">
-                            <use href="/img/svg-sp.svg#icon-google-plus2"></use>
-                        </svg>
-                    </li>
-                    <li class="section-clients-list__item">
-                        <svg class="icon-clients">
-                            <use href="/img/svg-sp.svg#icon-steam2"></use>
-                        </svg>
-                    </li>
-                    <li class="section-clients-list__item">
-                        <svg class="icon-clients">
-                            <use href="/img/svg-sp.svg#icon-npm"></use>
-                        </svg>
-                    </li>
-                    <li class="section-clients-list__item">
-                        <svg class="icon-clients">
-                            <use href="/img/svg-sp.svg#icon-xing"></use>
-                        </svg>
-                    </li>
-                    <li class="section-clients-list__item">
-                        <svg class="icon-clients">
-                            <use href="/img/svg-sp.svg#icon-html-five"></use>
-                        </svg>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- === /SECTION-CLIENTS ===  -->
+            </section>
+            <!-- === /SECTION-FEATURES ===  -->
+
+            <!-- === SECTION-WORKING ===  -->
+            <section class="section-working-outer">
+                <div class="section-working inner-wrap">
+                    <h2 class="section-title">Lorem ipsum dolor</h2>
+                    <ul class="working-list">
+                        <li class="working-list-item">
+                            <div class="working-list-item__img">
+                                <img src="https://picsum.photos/id/230/370" alt="work" />
+                            </div>
+                            <p class="working-list-item__text">Lorem ipsum</p>
+                        </li>
+                        <li class="working-list-item">
+                            <div class="working-list-item__img">
+                                <img src="https://picsum.photos/id/222/370" alt="work" />
+                            </div>
+                            <p class="working-list-item__text">Lorem ipsum</p>
+                        </li>
+                        <li class="working-list-item">
+                            <div class="working-list-item__img">
+                                <img src="https://picsum.photos/id/235/370" alt="work" />
+                            </div>
+                            <p class="working-list-item__text">Lorem ipsum</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- === /SECTION-WORKING ===  -->
+
+            <!-- === SECTION-TEAMS ===  -->
+            <section class="section-team-outer">
+                <div class="section-team inner-wrap">
+                    <h2 class="section-title">Lorem ipsum dolor</h2>
+                    <ul class="team-list">
+                        <li class="team-list-item">
+                            <img src="https://picsum.photos/id/289/270" alt="photo" class="team-list-item__img" />
+                            <div class="team-list-item__body">
+                                <p class="team-list-item__name">Lorem ipsum</p>
+                                <p class="team-list-item__position">Lorem ipsum</p>
+                                <div class="team-list-item__socials">
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-fb"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-wa"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-yt"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-ms"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team-list-item">
+                            <img src="https://picsum.photos/id/889/270" alt="photo" class="team-list-item__img" />
+                            <div class="team-list-item__body">
+                                <p class="team-list-item__name">Lorem ipsum</p>
+                                <p class="team-list-item__position">Lorem ipsum</p>
+                                <div class="team-list-item__socials">
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-fb"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-wa"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-yt"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-ms"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team-list-item">
+                            <img src="https://picsum.photos/id/221/270" alt="photo" class="team-list-item__img" />
+                            <div class="team-list-item__body">
+                                <p class="team-list-item__name">Lorem ipsum</p>
+                                <p class="team-list-item__position">Lorem ipsum</p>
+                                <div class="team-list-item__socials">
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-fb"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-wa"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-yt"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-ms"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team-list-item">
+                            <img src="https://picsum.photos/id/389/270" alt="photo" class="team-list-item__img" />
+                            <div class="team-list-item__body">
+                                <p class="team-list-item__name">Lorem ipsum</p>
+                                <p class="team-list-item__position">Lorem ipsum</p>
+                                <div class="team-list-item__socials">
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-fb"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-wa"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-yt"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use href="/img/svg-sp.svg#icon-ms"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- === /SECTION-TEAMS ===  -->
+            <!-- === SECTION-CLIENTS ===  -->
+            <section class="section-clients-outer">
+                <div class="section-clients inner-wrap">
+                    <h2 class="section-title">Lorem ipsum dolor</h2>
+                    <ul class="section-clients-list">
+                        <li class="section-clients-list__item">
+                            <svg class="icon-clients">
+                                <use href="/img/svg-sp.svg#icon-google-plus2"></use>
+                            </svg>
+                        </li>
+                        <li class="section-clients-list__item">
+                            <svg class="icon-clients">
+                                <use href="/img/svg-sp.svg#icon-steam2"></use>
+                            </svg>
+                        </li>
+                        <li class="section-clients-list__item">
+                            <svg class="icon-clients">
+                                <use href="/img/svg-sp.svg#icon-npm"></use>
+                            </svg>
+                        </li>
+                        <li class="section-clients-list__item">
+                            <svg class="icon-clients">
+                                <use href="/img/svg-sp.svg#icon-xing"></use>
+                            </svg>
+                        </li>
+                        <li class="section-clients-list__item">
+                            <svg class="icon-clients">
+                                <use href="/img/svg-sp.svg#icon-html-five"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- === /SECTION-CLIENTS ===  -->
+        </main>
         <!-- === FOOTER ===  -->
         <footer class="section-footer-outer">
             <div class="section-footer inner-wrap">
                 <div class="section-footer-contacts">
-                    <a class="logo" href="#"><span class="color-span">ART</span>studio</a>
+                    <a class="logo" href="index.html"><span class="color-span">ART</span>studio</a>
                     <p class="section-footer-contacts__address">Kyiv, Lomonosva str., 41</p>
                     <p class="section-footer-contacts__email">artstudio@gmail.com</p>
                     <p class="section-footer-contacts__phone">+380035284753</p>
@@ -303,6 +350,6 @@
         </footer>
         <!-- === /FOOTER ===  -->
 
-        <!-- <script src="/js/app.js"></script> -->
+        <script src="/js/app.js"></script>
     </body>
 </html>

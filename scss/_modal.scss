@@ -1,0 +1,101 @@
+.modal-bg {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+    transition: $transition;
+}
+.modal {
+    padding: 40px;
+    width: 528px;
+    min-height: 381px;
+    background-color: $color-white;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(1) skew(0deg) translate(-50%, -50%);
+    transition: $transition;
+}
+.close-modal-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: $transition;
+    &:hover {
+        color: $color-hover;
+    }
+}
+.modal-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.modal-form {
+    &__checkbox {
+        margin-top: 1rem;
+    }
+}
+.form-label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.form-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0 2rem;
+    transition: $transition;
+}
+
+.icon-form {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    stroke-width: 0;
+    fill: $color-border;
+    margin-bottom: -2px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 12px;
+    left: 50px;
+    transition: $transition;
+}
+
+.form-btn {
+    display: block;
+    margin: 1rem auto 0;
+    color: $color-white;
+    padding: 1rem 3rem;
+    background-color: $color-hover;
+    border: none;
+    border-radius: 5px;
+    font-size: $fs-lg;
+    cursor: pointer;
+    transition: $transition;
+    display: flex;
+    align-self: center;
+    &:hover {
+        background-color: lighten($color-hover, 5);
+    }
+}
+
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
