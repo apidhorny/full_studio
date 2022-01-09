@@ -1,8 +1,12 @@
 .section-features {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
     padding: 5rem 1rem;
+    gap: 1rem;
+    @media (max-width: 1161px) {
+        justify-content: center;
+    }
 }
 
 .section-features-item {

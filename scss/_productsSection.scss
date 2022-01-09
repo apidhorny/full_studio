@@ -1,5 +1,3 @@
-.section-products-outer {
-}
 .section-products {
     padding: 0 1rem 3rem;
 }
@@ -21,6 +19,16 @@
     &__item {
         margin-bottom: 3rem;
         width: 370px;
+
+        // @media screen and (min-width: 758px) {
+        //     margin-bottom: 10rem;
+        //     &:nth-child(2n + 1) {
+        //         margin-bottom: 100rem;
+        //     }
+        //     &: nth-child(-n + 2) {
+        //         margin-bottom: 1111rem;
+        //     }
+        // }
 
         &:hover {
             box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.5);

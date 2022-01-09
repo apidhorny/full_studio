@@ -5,9 +5,16 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 1rem;
+    @media (max-width: 1171px) {
+        justify-content: center;
+    }
 
     &-item {
         position: relative;
+        img {
+            width: 100%;
+        }
 
         &__text {
             position: absolute;

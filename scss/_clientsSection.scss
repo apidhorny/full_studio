@@ -4,9 +4,14 @@
 .section-clients-list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     &__item {
         margin: 0;
         padding: 0;
+    }
+    @media (max-width: 563px) {
+        justify-content: center;
     }
 }
 .icon-clients {
