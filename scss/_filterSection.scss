@@ -1,14 +1,12 @@
-.section-filter-outer {
-}
 .section-filter {
     padding: 3rem 1rem;
-}
-.inner-wrap {
 }
 .section-filter-list {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
     &__btn {
         padding: 0.5rem 1rem;
         border-radius: 5px;
@@ -17,9 +15,6 @@
         background-color: $color-bg;
         transition: $transition;
 
-        &:not(:last-child) {
-            margin-right: 2rem;
-        }
         &:hover {
             background-color: $color-hover;
             color: $color-white;

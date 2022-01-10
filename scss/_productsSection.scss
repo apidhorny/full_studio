@@ -6,6 +6,11 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 1rem;
+
+    @media (max-width: 1174px) {
+        justify-content: center;
+    }
     &__link {
         text-decoration: none;
         color: $color-border;
@@ -16,6 +21,7 @@
             }
         }
     }
+
     &__item {
         margin-bottom: 3rem;
         width: 370px;
